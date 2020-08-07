@@ -169,8 +169,8 @@ var buttons=[
 		keyname:'k'
 	}
 		element:document.getElementById('camera'),
-		keycode:16,
-		keyname:'Shift'
+		keycode:80,
+		keyname:'p'
 	}
 ];
 
