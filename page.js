@@ -130,8 +130,8 @@ function simulateKey(keycode,keyname,keytype){
 var buttons=[
 	{
 		element:startButton=document.getElementById('start'),
-		keycode:32,
-		keyname:'Space'
+		keycode:13,
+		keyname:'Enter'
 	},
 	{
 		element:document.getElementById('left'),
@@ -155,21 +155,22 @@ var buttons=[
 	},
 	{
 		element:document.getElementById('abutton'),
-		keycode:76,
-		keyname:'l'
+		keycode:88,
+		keyname:'x'
 	},
 	{
 		element:document.getElementById('bbutton'),
-		keycode:188,
-		keyname:'Comma'
+		keycode:67,
+		keyname:'c'
 	},
 	{
 		element:document.getElementById('crouch'),
-		keycode:'k',
-		keyname:'k'
-	}
+		keycode:'90',
+		keyname:'z'
+	},
+	{
 		element:document.getElementById('camera'),
-		keycode:80,
+		keycode:'80',
 		keyname:'p'
 	}
 ];
